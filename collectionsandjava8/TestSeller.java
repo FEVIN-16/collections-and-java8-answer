@@ -26,6 +26,7 @@ public class TestSeller {
 			break;
 		case 5:
 			st.addSeller(05,"Berlin","berlin@gmail.com","Kochi");
+			break;
 		default:
 			System.out.println("Please Enter a valid choice");
 		}

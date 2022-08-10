@@ -16,7 +16,7 @@ public class SellerTask {
 	
 	public void displaySeller() {
 		sellerList.stream()
-				  .forEach((i)->System.out.println(i));
+				  .forEach(System.out::println);
 	}
 	public void addSeller(int sellerId, String sellerName, String sellerEmail, String sellerLocation) {
 		sellerList.add(new Seller(sellerId,sellerName,sellerEmail,sellerLocation));
